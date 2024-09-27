@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <tittle></tittle>
+        <style>
+      body{
+        border-style: dashed;
+        border-radius: 3%;
+        margin-left: 500px;
+        margin-top: 200px;
+        width: 20%;
+        padding: 30px;
+        background-color: brown;
+      }
+      h1{
+        margin-left: 50px;
+      }
+      #num1, #num2{
+        margin-left: 50px;
+      }
+       label{
+        margin-left: 50px;
+      }
+      button{
+        margin-left: 90px;
+        padding: 10px;
+      }
+        </style> 
+    </head>
+     <body>
+        <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">CALCULATE</h1>
+        <input type="number" id="num1" placeholder="Enter ur first number"><br><br>
+        <input type="number" id="num2" placeholder="Enter another number"><br><br>
+        <label for="operation">Select Operation</label>
+        <select id="operation">
+        <option value="add">add(+)</option>
+        <option value="subtract">minus(-)</option>
+        <option value="divide">divide(/)</option>
+        <option value="multiply">multiply(*)</option>
+        </select><br><br>
+
+        <button onclick="calculate()">calculate</button>
+
+         <script>
+            function calculate() {
+         const num1 = parseInt(document.getElementById('num1').value);
+         const num2 = parseInt(document.getElementById('num2').value);
+         const operation = document.getElementById('operation').value;
+
+         let result;
+
+          switch (operation) {
+            case 'add':
+            alert(result = num1 + num2); 
+                break;
+                case 'subtract':
+                alert(result = num1 - num2);
+                    break;
+                    case 'divide':
+                        if (num2 === 0) {
+                            alert('Math error');
+                            return;
+                        }
+                       alert(result = num1 / num2); 
+                        break;
+                        case 'multiply':
+                            alert(result = num1 * num2); 
+                            break;
+                            default:
+                                alert('Invalid operation');
+                                return;
+          }
+        
+          const continueCalculation = confirm('Do you want to perform another calculation');
+          if(continueCalculation){
+            document.getElementById("num1").value = '';
+            document.getElementById("num2").value = '';
+          }
+            }
+        </script>
+</body>
+</html>

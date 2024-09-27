@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 30px;
+  width: 50px;
+  height:500px;
+  background-color: purple;
+}
+
+li {
+    display: block;
+    padding: 0 10px;
+}
+
+li a {
+  color: #000;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #000;
+  color: green;
+  padding: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    color: black;
+}
+
+li:hover .dropdown-content {
+    display: block;
+    margin-left : 15%;
+}
+</style>
+</head>
+<body>
+
+<h2>Navigation Bar</h2>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about" id="about">About</a>
+    <div class="dropdown-content">
+        <a href="#">Link 1</a><br>
+        <a href="#">Link 2</a><br>
+        <a href="#">Link 3</a>
+            </div>
+  </li>
+</ul>
+
+</body>
+</html>
+
+
+

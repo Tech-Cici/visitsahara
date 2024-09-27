@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head><title>DOM</title>
+        <script>
+            function ciara(){
+                const newElement = document.createElement('p');
+                newElement.textContent = 'Nyabihu';
+                const celia = document.createElement('p');
+                celia.textContent = 'Gatsibo';
+                const divine = document.createElement('p');
+                divine.textContent = 'Rubavu';
+                const container = document.getElementById('boo');
+                container.appendChild(newElement);
+                container.appendChild(celia);
+                container.appendChild(divine);
+            }
+        </script>
+    </head>
+    <body>
+        <div id="boo">
+            <h1>DISTRICTS</h1>
+        </div>
+        <button type="button" id="JsMagic" onclick="ciara()">Click me</button>
+    </body>
+</html>

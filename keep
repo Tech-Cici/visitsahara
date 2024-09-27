@@ -1,0 +1,79 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+<title>template</title>
+<style>
+    body{
+      background-image: linear-gradient(rgba(0, 0, 0,0.7),rgba(0,0,0,0.7)) , url(R.png);
+    }
+    .div{
+        margin-left: 80px;
+     color: aliceblue;
+     margin-top: 100px;
+     padding-top: 0px;
+    }
+    h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: aliceblue;
+    }
+    button{
+        shape-outside: margin-box;
+        fill: aliceblue;
+        border-radius: 100px;
+        padding: 10px;
+        width: 100px;
+        
+    }
+    div{
+        margin-left: 900px;
+        margin-top: 100px;
+        border-radius: 30px;
+    }
+    nav{
+        margin-left: 900px;
+        
+    }
+    
+    
+</style>
+<script scr="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav>
+            <a href="#" style="color: #fff; text-decoration:none;">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#" style="color: #fff;text-decoration:none;">REGION</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="#" style="color: #fff;text-decoration:none;">ABOUT</a>
+           </nav>
+           <div>
+           <div class="photo" >
+            <img src="OIP (2).jpeg" width="150px" height="150px" id="sand">&nbsp;&nbsp;
+         <img src="R (4) - Copy.jpeg" width="150px" height="150px">
+         <br><br>
+            <img src="R (3).jpeg" width="150px" height="150px">&nbsp;&nbsp;
+            <img src="R (4).jpeg" width="150px" height="150px">
+        </div>
+            
+                
+                    <div class="div">
+                        
+            <h1>Sahara</h1>
+            <p>This is Africa's most largest deserts. Sahara desert is giving offers of 5 free tickets to visit with everything covered<br>to anyone who wins the competition</p>
+            <i class="fas fa-camel"></i>
+               <button type="submit" id="open" >open</button>
+            </div>
+       
+        
+        
+        
+        
+       
+    
+
+
+
+<script>
+  document.getElementById("sand").textContent = "Desrt sand";
+
+</script>
+    </body>
+    </html> -->
